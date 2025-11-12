@@ -1,0 +1,37 @@
+# Proteger acceso directo a listado de directorios
+Options -Indexes
+
+# Permitir acceso a archivos individuales
+<Files "*">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Configurar tipos MIME para imágenes
+<IfModule mod_mime.c>
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+    AddType image/gif .gif
+    AddType image/webp .webp
+</IfModule>
+
+# Configurar cache para imágenes
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+</IfModule>
+
+# Prevenir ejecución de scripts PHP en esta carpeta
+<Files "*.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Prevenir acceso a archivos de configuración
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,293 @@
+{
+  "estadisticas": {
+    "madres": {
+      "total": 4,
+      "activas": 4,
+      "inactivas": 0
+    },
+    "neonatos": {
+      "total": 4,
+      "activos": 4,
+      "inactivos": 0
+    },
+    "llanto": {
+      "total": 0
+    }
+  },
+  "madres": [
+    {
+      "id_madre": "M-20251015-003",
+      "estado": true,
+      "numero_documento": "13568999",
+      "servicio": "cirugia",
+      "fecha": "2025-10-15T15:55:19.248Z",
+      "observaciones": "Ninguna ",
+      "nombre_madre": "Silvia Acuña",
+      "tipo_documento": "PPT",
+      "qr_id": "1A2B"
+    },
+    {
+      "id_madre": "M-20251015-002",
+      "servicio": "cirugia",
+      "tipo_documento": "PPT",
+      "observaciones": "Ninguna ",
+      "numero_documento": "13568999",
+      "qr_id": "1A2B",
+      "nombre_madre": "Silvia Acuña",
+      "estado": true,
+      "fecha": "2025-10-15T15:55:18.460Z"
+    },
+    {
+      "id_madre": "M-20251015-001",
+      "servicio": "cirugia",
+      "numero_documento": "13568999",
+      "observaciones": "Ninguna ",
+      "fecha": "2025-10-15T15:55:18.097Z",
+      "tipo_documento": "PPT",
+      "qr_id": "1A2B",
+      "estado": true,
+      "nombre_madre": "Silvia Acuña"
+    },
+    {
+      "id_madre": "q7bqAWK0DM9T37qADUfp",
+      "observaciones": "Neo ID ",
+      "tipo_documento": "CEDULA CIUDADANIA",
+      "fecha": "2025-10-14T18:18:21.955Z",
+      "numero_documento": "49783347",
+      "estado": true,
+      "nombre_madre": "Adriana BaezaS",
+      "servicio": "observacion"
+    }
+  ],
+  "neonatos": [
+    {
+      "id_neonato": "auglGxp20l2ApegAsUOc",
+      "pt": 4,
+      "servicio": "234",
+      "fecha": "2025-11-03T23:04:35.470Z",
+      "estado": true,
+      "talla": 234,
+      "fecha_nacimiento": "2025-10-29",
+      "hora_nacimiento": "18:08",
+      "peso": 234234,
+      "pa": 432,
+      "sexo": "M",
+      "qr_id": "23Z",
+      "permeabilidad_rectal": "Si",
+      "nombre_neonato": "324234",
+      "id_madre": "M-20251015-002",
+      "pc": 32,
+      "observaciones": "324",
+      "se_encuentra_en": "324"
+    },
+    {
+      "id_neonato": "y7QBANjs9TkE61I4OimD",
+      "talla": 234,
+      "pa": 432,
+      "pt": 4,
+      "fecha": "2025-11-03T23:04:34.246Z",
+      "sexo": "M",
+      "nombre_neonato": "324234",
+      "hora_nacimiento": "18:08",
+      "fecha_nacimiento": "2025-10-29",
+      "peso": 234234,
+      "qr_id": "23Z",
+      "estado": true,
+      "observaciones": "324",
+      "permeabilidad_rectal": "Si",
+      "id_madre": "M-20251015-002",
+      "se_encuentra_en": "324",
+      "servicio": "234",
+      "pc": 32
+    },
+    {
+      "id_neonato": "MiU5hdc2APPv68PxFXBR",
+      "se_encuentra_en": "Habitación ",
+      "peso": 4677,
+      "talla": 46,
+      "pt": 77,
+      "estado": true,
+      "hora_nacimiento": "10:55",
+      "pa": 57,
+      "observaciones": "Ninguna ",
+      "id_madre": "M-20251015-003",
+      "fecha": "2025-10-15T15:56:24.525Z",
+      "sexo": "M",
+      "permeabilidad_rectal": "Si",
+      "qr_id": "1A2B",
+      "fecha_nacimiento": "2025-10-15",
+      "servicio": "Habitación ",
+      "nombre_neonato": "Oslo acuña",
+      "pc": 24
+    },
+    {
+      "id_neonato": "D5RfI53JvzwSnYeuSTyL",
+      "id_madre": "q7bqAWK0DM9T37qADUfp",
+      "permeabilidad_rectal": "Si",
+      "sexo": "M",
+      "fecha": "2025-10-09T02:52:53.677Z",
+      "qr_id": "1A2B",
+      "servicio": "324",
+      "fecha_nacimiento": "2025-10-08",
+      "nombre_neonato": "Adrian Baeza",
+      "pc": 234,
+      "se_encuentra_en": "234",
+      "fotos_oreja_derecha": [
+        "https://neoidapp.infinityfreeapp.com/uploads/neonatos/D5RfI53JvzwSnYeuSTyL/oreja_derecha_1760475315_4192440d.jpg",
+        "https://neoidapp.infinityfreeapp.com/uploads/neonatos/D5RfI53JvzwSnYeuSTyL/oreja_derecha_1760482137_2b30ce80.jpg"
+      ],
+      "talla": 432,
+      "pt": 324,
+      "observaciones": "23423",
+      "estado": true,
+      "peso": 435,
+      "hora_nacimiento": "21:52",
+      "pa": 234234
+    }
+  ],
+  "relaciones": [
+    {
+      "madre": {
+        "id_madre": "M-20251015-003",
+        "estado": true,
+        "numero_documento": "13568999",
+        "servicio": "cirugia",
+        "fecha": "2025-10-15T15:55:19.248Z",
+        "observaciones": "Ninguna ",
+        "nombre_madre": "Silvia Acuña",
+        "tipo_documento": "PPT",
+        "qr_id": "1A2B"
+      },
+      "neonatos": [
+        {
+          "id_neonato": "MiU5hdc2APPv68PxFXBR",
+          "se_encuentra_en": "Habitación ",
+          "peso": 4677,
+          "talla": 46,
+          "pt": 77,
+          "estado": true,
+          "hora_nacimiento": "10:55",
+          "pa": 57,
+          "observaciones": "Ninguna ",
+          "id_madre": "M-20251015-003",
+          "fecha": "2025-10-15T15:56:24.525Z",
+          "sexo": "M",
+          "permeabilidad_rectal": "Si",
+          "qr_id": "1A2B",
+          "fecha_nacimiento": "2025-10-15",
+          "servicio": "Habitación ",
+          "nombre_neonato": "Oslo acuña",
+          "pc": 24
+        }
+      ]
+    },
+    {
+      "madre": {
+        "id_madre": "M-20251015-002",
+        "servicio": "cirugia",
+        "tipo_documento": "PPT",
+        "observaciones": "Ninguna ",
+        "numero_documento": "13568999",
+        "qr_id": "1A2B",
+        "nombre_madre": "Silvia Acuña",
+        "estado": true,
+        "fecha": "2025-10-15T15:55:18.460Z"
+      },
+      "neonatos": [
+        {
+          "id_neonato": "auglGxp20l2ApegAsUOc",
+          "pt": 4,
+          "servicio": "234",
+          "fecha": "2025-11-03T23:04:35.470Z",
+          "estado": true,
+          "talla": 234,
+          "fecha_nacimiento": "2025-10-29",
+          "hora_nacimiento": "18:08",
+          "peso": 234234,
+          "pa": 432,
+          "sexo": "M",
+          "qr_id": "23Z",
+          "permeabilidad_rectal": "Si",
+          "nombre_neonato": "324234",
+          "id_madre": "M-20251015-002",
+          "pc": 32,
+          "observaciones": "324",
+          "se_encuentra_en": "324"
+        },
+        {
+          "id_neonato": "y7QBANjs9TkE61I4OimD",
+          "talla": 234,
+          "pa": 432,
+          "pt": 4,
+          "fecha": "2025-11-03T23:04:34.246Z",
+          "sexo": "M",
+          "nombre_neonato": "324234",
+          "hora_nacimiento": "18:08",
+          "fecha_nacimiento": "2025-10-29",
+          "peso": 234234,
+          "qr_id": "23Z",
+          "estado": true,
+          "observaciones": "324",
+          "permeabilidad_rectal": "Si",
+          "id_madre": "M-20251015-002",
+          "se_encuentra_en": "324",
+          "servicio": "234",
+          "pc": 32
+        }
+      ]
+    },
+    {
+      "madre": {
+        "id_madre": "M-20251015-001",
+        "servicio": "cirugia",
+        "numero_documento": "13568999",
+        "observaciones": "Ninguna ",
+        "fecha": "2025-10-15T15:55:18.097Z",
+        "tipo_documento": "PPT",
+        "qr_id": "1A2B",
+        "estado": true,
+        "nombre_madre": "Silvia Acuña"
+      },
+      "neonatos": []
+    },
+    {
+      "madre": {
+        "id_madre": "q7bqAWK0DM9T37qADUfp",
+        "observaciones": "Neo ID ",
+        "tipo_documento": "CEDULA CIUDADANIA",
+        "fecha": "2025-10-14T18:18:21.955Z",
+        "numero_documento": "49783347",
+        "estado": true,
+        "nombre_madre": "Adriana BaezaS",
+        "servicio": "observacion"
+      },
+      "neonatos": [
+        {
+          "id_neonato": "D5RfI53JvzwSnYeuSTyL",
+          "id_madre": "q7bqAWK0DM9T37qADUfp",
+          "permeabilidad_rectal": "Si",
+          "sexo": "M",
+          "fecha": "2025-10-09T02:52:53.677Z",
+          "qr_id": "1A2B",
+          "servicio": "324",
+          "fecha_nacimiento": "2025-10-08",
+          "nombre_neonato": "Adrian Baeza",
+          "pc": 234,
+          "se_encuentra_en": "234",
+          "fotos_oreja_derecha": [
+            "https://neoidapp.infinityfreeapp.com/uploads/neonatos/D5RfI53JvzwSnYeuSTyL/oreja_derecha_1760475315_4192440d.jpg",
+            "https://neoidapp.infinityfreeapp.com/uploads/neonatos/D5RfI53JvzwSnYeuSTyL/oreja_derecha_1760482137_2b30ce80.jpg"
+          ],
+          "talla": 432,
+          "pt": 324,
+          "observaciones": "23423",
+          "estado": true,
+          "peso": 435,
+          "hora_nacimiento": "21:52",
+          "pa": 234234
+        }
+      ]
+    }
+  ],
+  "fechaExportacion": "2025-11-11T22:27:48.791Z"
+}
